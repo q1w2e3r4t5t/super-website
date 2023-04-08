@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            pajgtc
+        </title> 
+
+        <link rel="stylesheet" href="stlye.css">
+        <link rel="stylesheet" href="http://sackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.ndn.css">
+    
+    </head>
+    <body>
+    <div class="form box">
+    <h1>login here</h1>
+    <div class="input-box ">
+        <i class="fa fa-envelope-o"></i>
+        <input type="email"  placeholder="email id">
+    </div>
+    <div class="input-box" onclick="myfunction()">
+        <i class="fa fa-key"></i>
+        <span class="eye">
+          <i  id="hide1"class="fa fa-eye "></i>
+          <i  id="hide2"  class="fa fa-eye-slash"></i>
+        <input type="password" placeholder="password" id="input">
+    </div>
+    <button type="button" class="login-btn"><a href="link.html">LOGIN</button>
+    <script>
+        function myfunction(){
+            var x = document.getElementById("myinput");
+            var y = document.getElementById("hide1");
+            var z = document.getElementById("hide2");
+            if(x.type === "password"){
+                x.type="text";
+                y.style.display="block";
+                z.style.display="none";
+            }
+            else{
+                x.type="password";
+                y.style.display="none";
+                z.style.display="block";
+            }
+        }
+    </script>
+    
+    </body>
+
+</html>

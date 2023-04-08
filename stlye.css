@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+background-image:url( IMAGES/boy.jpg);
+background-size: cover;
+background-position:center;
+font-family: sans-serif;
+}  
+.form-box{ 
+ width: 500px;
+ background:greenyellow;
+ margin: 12% ;
+ padding: 50px 0;
+ color:#fff;
+ box-shadow: 0 0 20px 2px rgba(0,0,0,0.5);
+}
+ h1{
+    text-align: center;
+    margin: 48px;
+ }
+.input-box{
+   margin: 31px auto;
+   width: 30%;
+   border-bottom: 1px solid#fff;
+   padding-top: 13px;
+   padding-bottom: 5px;
+}
+.input-box input{
+   width: 90% ;
+   border: none;
+   outline: none;
+   background: transparent;
+   color: #fff;
+}
+::placeholder{
+   color: #ccc; 
+   font-family: Arial;
+}
+
+.login-btn{
+   margin: 48px auto 20px;
+   width: 20%;
+   display: block;
+   outline: none;
+   padding: 10px 0;
+   border: 1px solid;
+   cursor: pointer;
+   background: gold;
+   color: #fff;
+   font-size: 16px;
+   transition: 2.4s;
+}
+.login-btn:hover{
+   background: #fff;
+   color: gold;
+}
